@@ -1,0 +1,6 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+
+  #map-canvas {
+        width: 560px;
+        height: 260px;
+      }

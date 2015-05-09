@@ -1,0 +1,31 @@
+{
+    "name": "denmelo2015/denmelo2015",
+    "description": "Dennis and Melosa Wedding site",
+    "homepage": "http://denmelo.com",
+    "keywords": ["denmelo", "denmelow2015", "wedding"],
+    "authors": [
+        {
+            "name": "Herzon Garlan",
+            "email": "herzgarlan22@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Dalvin Chapoco",
+            "email": "dalvinchapoco@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit-selenium": ">=1.2"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
