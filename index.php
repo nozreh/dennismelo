@@ -34,6 +34,7 @@
 
     <!-- place your extra custom styles in this file -->
     <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/flipclock.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -41,7 +42,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="countdown.js"></script>
+    <script src="assets/js/flipclock.js"></script>
     <script>
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
@@ -116,6 +117,7 @@
                 <section class="feature-text">
                   <h2 Style="color: #ED1C24;text-shadow: 1px 1px 1px #fff;">#DMGreatestAdventure</h2>
                   <p>
+                  <div class="clock" style="margin:2em;"></div>
                 <?php
                     $timeFirst  = strtotime("now");
                     $timeSecond = strtotime('2015-07-04 08:00:00');
@@ -123,13 +125,12 @@
                   print '<script>var timeDiff = '.$differenceInSeconds.'</script>';
                   ?>
                   <script>
-                  var myCountdown1 = new Countdown({
-                  time: timeDiff,//86400 * diffDays,
-                  width:300, 
-                  height:60,  
-                  rangeHi:"day",
-                  style:"flip"  // <- no comma on last item!
-                  });</script></p>
+                  clock = $('.clock').FlipClock(timeDiff, {
+                    clockFace: 'DailyCounter',
+                    countdown: true
+                  });</script>
+
+                  </p>
                   <p>It's so great to find that one special person you want to annoy for the rest of your life. <br />- Rita Rudner </p>
                   <p> <a href="#contact"><h4> Save the Date<br /> 04.07.15 </h4> </a> </p>
                   <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg">Our Lovestory</a></p>
