@@ -115,13 +115,14 @@
 
                 <section class="feature-text">
                   <h2 Style="color: #ED1C24;text-shadow: 1px 1px 1px #fff;">#DMGreatestAdventure</h2>
-                  <p><script>
-                  <?php
+                  <p>
+                <?php
                     $timeFirst  = strtotime('2015-07-04 08:00:00');
                     $timeSecond = strtotime("now");
                     $differenceInSeconds = $timeSecond - $timeFirst;
                   print 'var timeDiff = '.$differenceInSeconds;
                   ?>
+                  <script>
                   var myCountdown1 = new Countdown({
                   time: timeDiff,//86400 * diffDays,
                   width:300, 
