@@ -116,8 +116,14 @@
                 <section class="feature-text">
                   <h2 Style="color: #ED1C24;text-shadow: 1px 1px 1px #fff;">#DMGreatestAdventure</h2>
                   <p><script>
+                  var date1 = new Date("07/04/2015");
+                  var date = new Date();
+				var date2 = new Date(date.getMonth() + 1 + '/' + date.getDate() + '/' +  date.getFullYear());
+					//var date2 = new Date("12/12/2010");
+					var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+					var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
                   var myCountdown1 = new Countdown({
-                  time: 86400 * 33, // 86400 seconds = 1 day
+                  time: 86400 * diffDays, // 86400 seconds = 1 day
                   width:300, 
                   height:60,  
                   rangeHi:"day",
@@ -219,7 +225,7 @@
                   <h3 class="section-title">Our Entourage</h3>
                   <p>
                     Groom's Father : Juan Palmenco <br/>
-                    Groom's Mother : Librada Palmenco <br/><br/>
+                    Groom's Mother : Librada Palmenco &#10013;<br/><br/>
                     Bride's Father : Eduardo Tiempo <br/>
                     Bride's Mother : Concepcion Tiempo <br/><br/>
                     Male Principal Sponsors: <br/>
@@ -535,7 +541,7 @@
         </ul>
 
         <!-- copyright text -->
-        <div class="footer-text-line">&copy; Dennis & Melo | 07-04-2015</div>
+        <div class="footer-text-line">&copy; Dennis & Melo | 04-07-2015</div>
       </section>
       <!-- end: Footer -->      
 
