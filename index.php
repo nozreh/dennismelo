@@ -117,7 +117,7 @@
                 <section class="feature-text">
                   <h2 Style="color: #ED1C24;text-shadow: 1px 1px 1px #fff;">#DMGreatestAdventure</h2>
                   <p>
-                  <div class="clock" style="margin:2em;"></div>
+                  <div class="clock" style="margin-top:4em;width:100%!important;"></div>
                 <?php
                     $timeFirst  = strtotime("now");
                     $timeSecond = strtotime('2015-07-04 08:00:00');
