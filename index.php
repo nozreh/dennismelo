@@ -120,7 +120,7 @@
                     $timeFirst  = strtotime("now");
                     $timeSecond = strtotime('2015-07-04 08:00:00');
                     $differenceInSeconds = $timeSecond - $timeFirst;
-                  print '<script>var timeDiff = '.$differenceInSeconds;.'</script>'
+                  print '<script>var timeDiff = '.$differenceInSeconds.'</script>';
                   ?>
                   <script>
                   var myCountdown1 = new Countdown({
