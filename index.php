@@ -28,13 +28,14 @@
     <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- lightbox -->
     <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet">
-
+    <!-- flipclock -->
+    <link href="assets/css/flipclock.css" rel="stylesheet">
     <!-- styles for this template -->
     <link href="assets/css/styles.css" rel="stylesheet">
 
     <!-- place your extra custom styles in this file -->
     <link href="assets/css/custom.css" rel="stylesheet">
-    <link href="assets/css/flipclock.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
