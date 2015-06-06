@@ -478,16 +478,16 @@
                 <!-- CONTACT FORM -->
                 <!--col-sm-7 col-md-9-->
                   <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
-                  <form class="form-style validate-form clearfix" action="assets/php/mail.php" method="POST" role="form">
+                  <form class="form-style validate-form clearfix" action="assets/php/mail2.php" method="POST" role="form">
 
                     <!-- form left col -->
                     <div class="col-md-9">
                       <div class="form-group">
                         <input type="text" class="text-field form-control validate-field required" data-validation-type="string" id="form-name" placeholder="Full Name" name="name">
                       </div>  
-                      <!--<div class="form-group">
+                      <<div class="form-group">
                         <input type="email" class="text-field form-control validate-field required" data-validation-type="email" id="form-email" placeholder="Email Address" name="email">
-                      </div>-->
+                      </div>
                       <div class="form-group">
                         <input type="tel" class="text-field form-control validate-field phone" data-validation-type="phone" id="form-contact-number" placeholder="Contact Number" name="contact_number">
                       </div>    
