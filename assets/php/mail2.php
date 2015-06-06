@@ -2,7 +2,7 @@
 require 'Mandrill.php';
 
 $mandrill = new Mandrill("PRgkkKrIhLWZvXbFh9YugA");
-$recipient = 'herzgarlan22@gmail.com';
+$recipient = 'mmbtiempo86@gmail.com';
 
 // If are not using environment variables to specific your API key, use:
 // $mandrill = new Mandrill("YOUR_API_KEY")
