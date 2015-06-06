@@ -42,7 +42,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="assets/js/flipclock.js"></script>
     <script>
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
@@ -124,12 +123,6 @@
                     $differenceInSeconds = $timeSecond - $timeFirst;
                   print '<script>var timeDiff = '.$differenceInSeconds.'</script>';
                   ?>
-                  <script>
-                  clock = $('.clock').FlipClock(timeDiff, {
-                    clockFace: 'DailyCounter',
-                    countdown: true
-                  });</script>
-
                   </p>
                   <p>It's so great to find that one special person you want to annoy for the rest of your life. <br />- Rita Rudner </p>
                   <p> <a href="#contact"><h4> Save the Date<br /> 04.07.15 </h4> </a> </p>
@@ -593,6 +586,8 @@
 
     <!-- responsive videos -->
     <script src="assets/js/jquery.fitvids.js"></script>
+
+    <script src="assets/js/flipclock.js"></script>
 
     <!-- Custom functions for this theme -->
     <script src="assets/js/functions.js"></script>

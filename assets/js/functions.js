@@ -1276,3 +1276,8 @@ function tabs_uniform_height()
         panes.css({ 'min-height': max_height+'px' });
     }
 }
+
+clock = $('.clock').FlipClock(timeDiff, {
+        clockFace: 'DailyCounter',
+        countdown: true
+      });
