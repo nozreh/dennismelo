@@ -20,6 +20,12 @@ $name = $_POST['name']; // required
 $email = $_POST['email']; // required
 $contact_number = $_POST['contact_number']; // not required
 
+print '<pre>';
+var_dump($mandrill);
+print '</pre>';
+
+exit;
+
 $message = array(
     'subject' => 'RSVP Confirmation',
     'from_email' => 'dennis-melo@dmgreatestadventure.com',
