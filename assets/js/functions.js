@@ -1279,5 +1279,6 @@ function tabs_uniform_height()
 
 clock = $('.clock').FlipClock(timeDiff, {
             clockFace: 'DailyCounter',
-            countdown: true
+            countdown: true,
+            showSeconds: false
           });
