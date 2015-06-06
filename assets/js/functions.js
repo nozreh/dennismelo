@@ -1278,5 +1278,6 @@ function tabs_uniform_height()
 }
 
 clock = $('.clock').FlipClock(timeDiff, {
-        countdown: true
-      });
+            clockFace: 'DailyCounter',
+            countdown: true
+          });
