@@ -117,10 +117,10 @@
                   <h2 Style="color: #ED1C24;text-shadow: 1px 1px 1px #fff;">#DMGreatestAdventure</h2>
                   <p>
                 <?php
-                    $timeFirst  = strtotime('2015-07-04 08:00:00');
-                    $timeSecond = strtotime("now");
+                    $timeFirst  = strtotime("now");
+                    $timeSecond = strtotime('2015-07-04 08:00:00');
                     $differenceInSeconds = $timeSecond - $timeFirst;
-                  print 'var timeDiff = '.$differenceInSeconds;
+                  print '<script>var timeDiff = '.$differenceInSeconds;.'</script>'
                   ?>
                   <script>
                   var myCountdown1 = new Countdown({
