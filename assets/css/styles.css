@@ -75,7 +75,7 @@ h6,
 }
 
 p {
-    margin: 1em 0;
+    margin: 1em 0;1px 4px 7px #666;
 }
 
     @media (min-width: 768px) {
